@@ -5,8 +5,11 @@ import {
 	bubbleSort,
 	factorial,
 	fibonacci,
-	quickSort
+	quickSort,
+	breadthFirstSearch
 } from './algorithms';
+
+import type { GraphType } from './types';
 
 const UNSORTED_ARRAY = [1, 3, 2, 8, 12, 5, 20, 0, -5, 15, 17];
 const SORTED_ARRAY = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15];
@@ -27,4 +30,13 @@ const SORTED_ARRAY = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15];
 // console.log('factorial(5) ==>', factorial(5));
 // console.log('fibonacci(8) ==>', fibonacci(8));
 
-console.log('quickSort(UNSORTED_ARRAY) ==>', quickSort(UNSORTED_ARRAY));
+// console.log('quickSort(UNSORTED_ARRAY) ==>', quickSort(UNSORTED_ARRAY));
+
+// const graph: GraphType = {};
+// graph.a = ['b', 'c'];
+// graph.b = ['f'];
+// graph.c = ['d', 'e'];
+// graph.d = ['f'];
+// graph.e = ['f'];
+// graph.f = ['g'];
+// console.log(breadthFirstSearch(graph, 'a', 'e'));

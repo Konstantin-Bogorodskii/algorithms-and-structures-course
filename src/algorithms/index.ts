@@ -4,3 +4,4 @@ export { selectionSort } from './selectionSort';
 export { bubbleSort } from './bubbleSort';
 export { factorial, fibonacci } from './recursion';
 export { quickSort } from './quickSort';
+export { breadthFirstSearch } from './breadthFirstSearch';
