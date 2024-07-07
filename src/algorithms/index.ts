@@ -5,3 +5,6 @@ export { bubbleSort } from './bubbleSort';
 export { factorial, fibonacci } from './recursion';
 export { quickSort } from './quickSort';
 export { breadthFirstSearch } from './breadthFirstSearch';
+export { shortPathSearch } from './shortPathSearch';
+export { recursiveTreeSearch } from './recursiveTreeSearch';
+export { binaryTreeSearch } from './binaryTreeSearch';
